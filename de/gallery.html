@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <title>Galerie — Swiss Regenerative Klinik</title>
   <meta name="description" content="Fotogalerie der Swiss Regenerative Klinik in Zürich. Klinikräume, Behandlungszimmer und Erholungsumgebung.">
   <link rel="stylesheet" href="../css/style.css">
@@ -27,12 +29,13 @@
         <span class="lang-current">DE <span class="lang-arrow">▾</span></span>
         <div class="lang-dropdown">
           <a href="../gallery.html">EN</a>
+          <a href="../ar/gallery.html">AR</a>
         </div>
       </div>
     </div>
   </nav>
 
-  <section class="page-hero">
+  <section data-reveal class="page-hero">
     <div class="container">
       <span class="breadcrumb">Startseite &gt; Galerie</span>
       <h1 class="heading-gradient">Galerie</h1>
@@ -40,13 +43,13 @@
     </div>
   </section>
 
-  <section class="section">
+  <section data-reveal class="section">
     <div class="container">
       <p class="section-intro">Bilder folgen in Kürze. Besuchen Sie uns oder kontaktieren Sie uns für einen Besichtigungstermin.</p>
     </div>
   </section>
 
-  <section class="section" style="text-align:center">
+  <section data-reveal class="section" style="text-align:center">
     <div class="container">
       <a href="../contact.html" class="btn btn-primary">Kontaktieren Sie uns &rarr;</a>
     </div>
@@ -57,24 +60,23 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <span class="logo">&#x25C8; QuantumHealth</span>
-          <p>Intelligente Gesundheitsversorgung durch Schweizer Regenerativmedizin und modernste Technologie.</p>
+          <p>Innovative Heilung, verwurzelt in der Natur</p>
         </div>
         <div class="footer-col">
-          <h4>Unternehmen</h4>
+          <h4>Quick Links</h4>
           <ul>
-            <li><a href="../about.html">Über uns</a></li>
-            <li><a href="#">Karriere</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Presse</a></li>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="services.html">Leistungen</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Support</h4>
+          <h4>Sprachen</h4>
           <ul>
-        <li><a href="contact.html">Kontakt</a></li>
-            <li><a href="#">Datenschutz</a></li>
-            <li><a href="#">AGB</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="../index.html">English</a></li>
+            <li><a href="index.html">Deutsch</a></li>
+            <li><a href="../ar/index.html">العربية</a></li>
           </ul>
         </div>
       </div>
@@ -85,5 +87,6 @@
   </footer>
 
   <script src="../js/main.js"></script>
+  <script src="../js/motion.js"></script>
 </body>
 </html>
