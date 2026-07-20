@@ -2,6 +2,7 @@
   'use strict';
 
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (window.innerWidth < 768) return;
 
   /* Floating glow orbs */
   const orbsContainer = document.createElement('div');

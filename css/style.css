@@ -659,6 +659,13 @@ section { padding: 100px 0; }
   .team-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .flip-card:hover, .journey-step:hover, .condition-item:hover,
+  .programme-card:hover, .program-mini-card:hover, .life-item:hover,
+  .pricing-card:hover, .diff-item:hover, .team-card:hover,
+  .benefit-item:hover { transform: none !important; }
+}
+
 @media (max-width: 768px) {
   .mobile-toggle { display: flex; }
   .nav-links {
@@ -669,6 +676,8 @@ section { padding: 100px 0; }
   }
   .nav-links.open { display: flex; }
   .lang-switch { margin-left: 0; }
+
+  .navbar { backdrop-filter: none; -webkit-backdrop-filter: none; }
 
   .hero { min-height: auto; padding: 120px 0 60px; }
   .hero-title { font-size: 36px; }
